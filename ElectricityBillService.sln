@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityBillService", "ElectricityBillService\ElectricityBillService.csproj", "{5BD0C95F-C2A0-4AAE-8B55-6DB376C8E97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityBillService.Tests", "ElectricityBillService.Tests\ElectricityBillService.Tests.csproj", "{03FCBB37-4465-4DF2-8BF7-0B0D9F896159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD0C95F-C2A0-4AAE-8B55-6DB376C8E97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD0C95F-C2A0-4AAE-8B55-6DB376C8E97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD0C95F-C2A0-4AAE-8B55-6DB376C8E97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD0C95F-C2A0-4AAE-8B55-6DB376C8E97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FCBB37-4465-4DF2-8BF7-0B0D9F896159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FCBB37-4465-4DF2-8BF7-0B0D9F896159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FCBB37-4465-4DF2-8BF7-0B0D9F896159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FCBB37-4465-4DF2-8BF7-0B0D9F896159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {178F8BD9-9700-4E45-966D-A9C84119D950}
+	EndGlobalSection
+EndGlobal
