@@ -16,9 +16,6 @@ public class SinglePhaseBillCalculator
     {
         if (readings == null || readings.Count == 0)
             return new Transaction();
-
-        readings = readings.OrderBy(r => r.ReadingTimeLocal).ToList();
-
         int? previousReading = null;
         int totalConsumption = 0;
 
